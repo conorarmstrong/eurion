@@ -35,10 +35,10 @@ python eurion.py -i input.pdf -o protected.pdf -dx 50 -dy 80 -s 5 -t 0.3 -c FFCC
 |--------|-------------|---------|
 | `-i`, `--input` | Input PDF file | Required |
 | `-o`, `--output` | Output PDF file | Required |
-| `-dx`, `--density-x` | Horizontal density | 40 |
-| `-dy`, `--density-y` | Vertical density | 50 |
+| `-dx`, `--density-x` | Horizontal density | 25 |
+| `-dy`, `--density-y` | Vertical density | 55 |
 | `-s`, `--size` | Size of Eurion constellations | 5 |
-| `-t`, `--transparency` | Opacity (0.0 - 1.0) | 0.25 |
+| `-t`, `--transparency` | Opacity (0.0 - 1.0) | 0.1 |
 | `-c`, `--color` | Hex color of constellations | `A0A0A0` (light grey) |
 
 ## Example Output
